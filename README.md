@@ -14,13 +14,16 @@ Simple C++ program to set an animated battery as desktop wallpaper. It's shows c
 
 ### How to install
 
-  1) Download the release zip.  (Compiled for x86).  Extract wherever you would like.
+  1) Download the [latest release zip.](https://github.com/nadehi18/battery-wallpaper-windows/releases)
+        (Compiled for x86).  
+        
+  2) Extract wherever you would like.
 
-  2) Set to start at boot: Create shortcut to the exe and move shortcut to 
+  3) Set to start at boot: Create shortcut to the exe and move shortcut to 
   ```
   C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
   ```
-  3) Set the fit in Settings>Personalization>Background for the image.  "Center" works well for most screens.
+  4) Set the fit in Settings>Personalization>Background for the image.  "Center" works well for most screens.
 
 ### Previews
 
