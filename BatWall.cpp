@@ -26,7 +26,7 @@ using std::string;
 
 // Function prototypes
 int getBatteryPercentage();
-bool charging();
+bool isOnAC();
 bool setWallpaper(string);
 
 int main()
@@ -35,7 +35,7 @@ int main()
     const string batt_walls[5] = { "battery_1", "battery_2", "battery_3", "battery_4", "battery_5" };
     const string char_walls[5] = { "charge_1", "charge_2", "charge_3", "charge_4", "charge_5" };
     // Integer variables to store important data
-    int current_wall{ 0 };
+    int current_wall{ -1 };
     int next_wall{ 0 };
     int current_battery{ 0 };
     // Control variable
@@ -45,15 +45,27 @@ int main()
     while (wall_changed)
     {
         // Check if the computer is on AC power or not
-        if (charging())
+        if (isOnAC())
         {
-            // Change the wallpaper every second to the next charging wallpaper
-            for (int x{ 0 }; x < 5; x++)
+            // Check if fully charged
+            if (getBatteryPercentage() == 100)
             {
-                // Attempt to change the wallpaper
-                wall_changed = setWallpaper(char_walls[x]);
+                // Set the wall to the last charging one
+                wall_changed = setWallpaper(char_walls[4]);
                 Sleep(1000);
             }
+            else
+            {
+                // Change the wallpaper every second to the next charging wallpaper
+                for (int x{ 0 }; x < 5; x++)
+                {
+                    // Attempt to change the wallpaper
+                    wall_changed = setWallpaper(char_walls[x]);
+                    Sleep(1000);
+                }
+            }
+            // Reset the current wall number since the wallpaper changed
+            current_wall = -1;
         }
         else
         {
@@ -100,13 +112,13 @@ int getBatteryPercentage()
     return percentage;
 }
 
-// Function to get whether the laptop is charging or not
-bool charging()
+// Function to get whether the laptop is on AC power or not
+bool isOnAC()
 {
-    // Get the charging status
+    // Get the power status
     SYSTEM_POWER_STATUS spsPwr;
     GetSystemPowerStatus(&spsPwr);
-    // Return the state
+    // Get the AC state
     return static_cast<int>(spsPwr.ACLineStatus);
 }
 
