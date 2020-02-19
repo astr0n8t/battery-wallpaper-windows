@@ -20,6 +20,7 @@ Simple C++ program to set an animated battery as desktop wallpaper. It's shows c
   ```
   C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
   ```
+  3) Set the fit in Settings>Personalization>Background for the image.  "Center" works well for most screens.
 
 ### Previews
 
