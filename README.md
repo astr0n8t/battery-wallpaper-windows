@@ -29,6 +29,5 @@ Simple C++ program to set an animated battery as desktop wallpaper. It's shows c
 
 |0-20%|20-40%|40-60%|60-80%|80-100%|
 |--|--|--|--|--|
-|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/20.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/40.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/60.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/80.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/100.png)|
-
+|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/0/1.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/0/2.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/0/3.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/0/4.png)|![img](https://raw.githubusercontent.com/adi1090x/battery-wallpaper/master/preview/0/5.png)|
 
