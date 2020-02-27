@@ -34,5 +34,5 @@ Simple C++ program to set an animated battery as desktop wallpaper. It's shows c
 
 |0-20%|20-40%|40-60%|60-80%|80-100%|
 |--|--|--|--|--|
-|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/0/1.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/0/2.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/0/3.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/0/4.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/0/5.png)|
+|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/20.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/40.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/60.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/80.png)|![img](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/100.png)|
 
