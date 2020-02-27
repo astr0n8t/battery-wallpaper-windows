@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=flat-square">
   <img src="https://img.shields.io/github/license/nadehi18/battery-wallpaper-windows?style=flat-square">
   <img src="https://img.shields.io/github/stars/nadehi18/battery-wallpaper-windows?color=red&style=flat-square">
-  <img src="https://img.shields.io/github/forks/nadehi18/battery-wallpaper-windows?style=flat-square">
+  <img src="https://img.shields.io/github/forks/adi1090x/battery-wallpaper?style=flat-square">
   <img src="https://img.shields.io/github/issues/nadehi18/battery-wallpaper-windows?style=flat-square">
   <img src="https://img.shields.io/badge/Windows-Yes-blue?style=flat-square&logo=windows">
   <a href="https://github.com/adi1090x/battery-wallpaper" target="_blank"><img alt="undefined" 
