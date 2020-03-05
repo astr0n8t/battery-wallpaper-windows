@@ -13,6 +13,8 @@
    src="https://img.shields.io/badge/Mac-Yes-green?style=flat-square&logo=apple"></a>    
 </p>
 
+<img width=100px src="https://raw.githubusercontent.com/nadehi18/social-templates/master/codecard-c++.png">
+
 Simple C++ program to set an animated battery as desktop wallpaper. It's shows charging animation and changes according to battery percentage.
 
 ![gif](https://raw.githubusercontent.com/nadehi18/battery-wallpaper-windows/master/preview/charging.gif) <br />
